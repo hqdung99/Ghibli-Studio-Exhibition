@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+.navigation-bar {
+  background-color: #24252a;
+  height: 60px;
+}
+
+.navigation-bar nav {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.navigation-bar nav .container-text-logo a {
+  color: #b8b8bb;
+  text-decoration: none;
+  font-family: "Monoton", cursive;
+  font-size: 2rem;
+}
+
+.navigation-bar nav .container-text-logo:hover a {
+  filter: brightness(1.5);
+}
+
+.navigation-bar nav .container-text-logo {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-bar nav ul li a {
+  color: #b8b8bb;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-family: "Fredoka One", cursive;
+}
+
+.navigation-bar nav ul li {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.navigation-bar nav ul li:hover a {
+  color: white;
+}
+
+.navigation-bar nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-grow: 8;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navigation-bar .active {
+  color: #ffffff;
+  filter: brightness(1.5);
+}
